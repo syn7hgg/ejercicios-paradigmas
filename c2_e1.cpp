@@ -28,11 +28,10 @@ int main() {
         discr = pow(b,2) - (4*a*c);
     }
 
+    x1 = (-b + sqrt(discr)) / 2*a;
     if (discr == 0) {
-        x1 = (-b + sqrt(discr)) / 2*a;
         cout << "X = " + to_string(x1) << endl;
     } else {
-        x1 = (-b + sqrt(discr)) / 2*a;
         x2 = (-b - sqrt(discr)) / 2*a;
         cout << "X1 = " + to_string(x1) << endl;
         cout << "X2 = " + to_string(x2) << endl;
